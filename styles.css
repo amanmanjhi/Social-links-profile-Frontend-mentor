@@ -1,7 +1,23 @@
+
+@font-face {
+    font-family: 'CustomFont1'; /* Name of the font */
+    src: url('assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype'); /* Path to the font file */
+    font-weight: normal; /* Specify font weight */
+    font-style: normal; /* Specify font style */
+}
+@font-face {
+    font-family: 'CustomFont2'; /* Name of the font */
+    src: url('assets/fonts/static/Inter-Bold.ttf') format('truetype'); /* Path to the font file */
+    font-weight: normal; /* Specify font weight */
+    font-style: normal; /* Specify font style */
+}
 *{
     background-color: black;
     color: aliceblue;
+    font-family: 'CustomFont',sans-serif;
+    
 }
+
 
 main{
     display: flex;
@@ -55,11 +71,12 @@ h1{
     margin-top: 15px;
     font-size: 30px;
     background: none;
+    font-family: 'CustomFont2';
 }
 
 p{
     background: none;
-    margin-top: 5px;
+
 }
 p .location{
     color:hsl(75, 94%, 57%);
